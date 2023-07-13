@@ -1,10 +1,10 @@
 html, body{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
+    font-family: Roboto, sans-serif;
     margin: 0;
     height: 100%;
-    font-family: Roboto, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;    
     
 }
 
@@ -26,7 +26,7 @@ html, body{
 ul {
     list-style: none;
     display: flex;
-    gap: 8px;
+    gap: 16px;
     font-size: 24px;
     margin: 0 100px;
 }
@@ -81,4 +81,22 @@ a {
 .short-info {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    border-radius: 25px;
+    border-color: black;
+}
+
+.information-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 32px 0;
+}
+
+.uyeler {
+    color: black;
 }
