@@ -1,10 +1,15 @@
-body{
+html, body{
     display: flex;
     flex-direction: column;
+    background-color: white;
+    margin: 0;
+    height: 100%;
+    font-family: Roboto, sans-serif;
+    
 }
 
 .header {
-    border-radius: 25px;
+
     background-color: #1f2937;
     color: white;
     display: flex;
@@ -15,6 +20,7 @@ body{
 
 .header-title{
     font-size: 36px;
+    margin: 0 100px;
 }
 
 ul {
@@ -22,9 +28,57 @@ ul {
     display: flex;
     gap: 8px;
     font-size: 24px;
+    margin: 0 100px;
 }
 
 a {
     color: white;
     text-decoration: none;
+}
+
+.content{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    
+}
+
+.content-info {
+
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+
+#logo {
+    width: 200px;
+    height: 300px;
+    padding: 8px;
+    border-radius: 25px;
+    margin: 0 100px;
+}
+
+.join-button {
+    padding: 16px;
+    background-color: gold;
+    font-size: larger;
+    border-radius: 25px;
+    width: 120px;
+    height: 60px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.short-info {
+    font-size: 18px;
+    color: #E5E7EB;
 }
