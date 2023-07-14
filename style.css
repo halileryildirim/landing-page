@@ -19,7 +19,7 @@ html, body{
 }
 
 .header-title{
-    font-size: 36px;
+    font-size: 24px;
     margin: 0 100px;
 }
 
@@ -27,7 +27,7 @@ ul {
     list-style: none;
     display: flex;
     gap: 16px;
-    font-size: 24px;
+    font-size: 18px;
     margin: 0 100px;
 }
 
@@ -71,6 +71,7 @@ a {
     border-radius: 25px;
     width: 120px;
     height: 60px;
+    color: white;
 }
 
 .title{
@@ -110,20 +111,50 @@ img {
 
 .quote-section{
     display: flex;
-    flex:1;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
     padding: 100px;
-    margin-top: 16px;
+    margin: 16px 0;
 }
 
-.quote-signature{
-    align-self: flex-end;
-    justify-content: flex-end;
+.quote-section > .quote-signature{
+    font-style: normal;
     font-weight: bold;
 }
 
+.signup{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color: #3882f6;
+    align-self: center;
+    padding: 36px 52px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    gap: 8px;
+    margin-bottom: 24px;
+}
 
+.signup > .signup-lessinfo {
+    font-size: 16px;
+}
+.signup > .join-button {
+    font-size: 16px;
+    color: white;
+    align-self: flex-end;
+    text-align: center;
+    border-color: white;
+}
+
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#1f2937;
+    color: white;
+    text-align: center;
+}
