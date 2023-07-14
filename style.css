@@ -43,7 +43,6 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 16px;
-    flex: 1;
     
 }
 
@@ -58,15 +57,16 @@ a {
 
 #logo {
     width: 200px;
-    height: 300px;
+    height: 275px;
     padding: 8px;
     border-radius: 25px;
+    border-style: none;
     margin: 0 100px;
 }
 
 .join-button {
     padding: 16px;
-    background-color: gold;
+    background-color: #3882f6;
     font-size: larger;
     border-radius: 25px;
     width: 120px;
@@ -88,7 +88,8 @@ img {
     width: 200px;
     height: 275px;
     border-radius: 25px;
-    border-color: black;
+    border-color: #1f2937;
+    border-style: solid;
 }
 
 .information-title {
@@ -96,10 +97,6 @@ img {
     font-size: 24px;
     font-weight: 700;
     margin: 32px 0;
-}
-
-.uyeler {
-    color: black;
 }
 
 .information {
@@ -110,3 +107,23 @@ img {
     font-size: large;
     flex: 1;
 }
+
+.quote-section{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    padding: 100px;
+    margin-top: 16px;
+}
+
+.quote-signature{
+    align-self: flex-end;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+
