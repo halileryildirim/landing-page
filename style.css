@@ -43,6 +43,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 16px;
+    flex: 1;
     
 }
 
@@ -85,7 +86,7 @@ a {
 
 img {
     width: 200px;
-    height: 300px;
+    height: 275px;
     border-radius: 25px;
     border-color: black;
 }
@@ -99,4 +100,13 @@ img {
 
 .uyeler {
     color: black;
+}
+
+.information {
+    display: flex;
+    gap: 84px;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    flex: 1;
 }
